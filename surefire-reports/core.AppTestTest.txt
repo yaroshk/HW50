@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: core.AppTestTest
+-------------------------------------------------------------------------------
+Tests run: 46, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 214.794 sec <<< FAILURE!
+Dynamic text (quote)(core.AppTestTest)  Time elapsed: 5.08 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: " (9, 49)"
+     but: was "(9, 49)"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.AppTestTest.test(AppTestTest.java:69)
+
+Field (first name)(core.AppTestTest)  Time elapsed: 4.805 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: " (554, 183)"
+     but: was "(554, 183)"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.AppTestTest.test(AppTestTest.java:69)
+
+Label (last name)(core.AppTestTest)  Time elapsed: 4.522 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: " (979, 153)"
+     but: was "(979, 153)"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.AppTestTest.test(AppTestTest.java:69)
+
+Field (email address)(core.AppTestTest)  Time elapsed: 4.583 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: " (554, 263)"
+     but: was "(554, 263)"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.AppTestTest.test(AppTestTest.java:69)
+
+Label (radio male)(core.AppTestTest)  Time elapsed: 4.667 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: " (606, 355)"
+     but: was "(606, 355)"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.AppTestTest.test(AppTestTest.java:69)
+
+Radio Button (male)(core.AppTestTest)  Time elapsed: 4.572 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: " (566, 354)"
+     but: was "(566, 354)"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.AppTestTest.test(AppTestTest.java:69)
+
+Dynamic text (os & browser)(core.AppTestTest)  Time elapsed: 4.781 sec  <<< FAILURE!
+java.lang.AssertionError: 
+Expected: " (1075, 551)"
+     but: was "(1075, 551)"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.AppTestTest.test(AppTestTest.java:69)
+

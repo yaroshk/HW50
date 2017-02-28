@@ -1,0 +1,1632 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 7 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-core.AppTestTest">
+              <span class="suite-name border-failed">core.AppTestTest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-core.AppTestTest">
+                    <span>[unset file name]</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-core.AppTestTest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-core.AppTestTest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-core.AppTestTest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-core.AppTestTest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-core.AppTestTest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-core.AppTestTest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">46 methods, 7 failed,   39 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-core.AppTestTest" class="hide-methods failed suite-core.AppTestTest"> (hide)</a> <!-- hide-methods failed suite-core.AppTestTest -->
+                      <a href="#" panel-name="suite-core.AppTestTest" class="show-methods failed suite-core.AppTestTest"> (show)</a> <!-- show-methods failed suite-core.AppTestTest -->
+                    </span>
+                    <div class="method-list-content failed suite-core.AppTestTest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Dynamic text (os &amp; browser), index.php, os_browser, (310, 24),  (1075, 551))">test(Dynamic text (os & browser), index.php, os_browser, (310, 24),  (1075, 551))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Field (first name), index.php, id_fname, (386, 43),  (554, 183))">test(Field (first name), index.php, id_fname, (386, 43),  (554, 183))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Field (email address), index.php, id_email, (386, 43),  (554, 263))">test(Field (email address), index.php, id_email, (386, 43),  (554, 263))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Dynamic text (quote), index.php, id_quotes, (1901, 20),  (9, 49))">test(Dynamic text (quote), index.php, id_quotes, (1901, 20),  (9, 49))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Label (last name), index.php, id_f_label_ln, (103, 24),  (979, 153))">test(Label (last name), index.php, id_f_label_ln, (103, 24),  (979, 153))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Label (radio male), index.php, id_r_label_m, (44, 22),  (606, 355))">test(Label (radio male), index.php, id_r_label_m, (44, 22),  (606, 355))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Radio Button (male), index.php, id_g_radio_01, (26, 26),  (566, 354))">test(Radio Button (male), index.php, id_g_radio_01, (26, 26),  (566, 354))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-core.AppTestTest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-core.AppTestTest" class="hide-methods passed suite-core.AppTestTest"> (hide)</a> <!-- hide-methods passed suite-core.AppTestTest -->
+                      <a href="#" panel-name="suite-core.AppTestTest" class="show-methods passed suite-core.AppTestTest"> (show)</a> <!-- show-methods passed suite-core.AppTestTest -->
+                    </span>
+                    <div class="method-list-content passed suite-core.AppTestTest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Confirmation Field (terms), confirmation.php, id_terms_conf, (10, 42), (561, 426))">test(Confirmation Field (terms), confirmation.php, id_terms_conf, (10, 42), (561, 426))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Field (last name), index.php, id_lname, (386, 43), (979, 183))">test(Field (last name), index.php, id_lname, (386, 43), (979, 183))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Page title (Confirmation), confirmation.php, id_f_title, (249, 44), (560, 85))">test(Page title (Confirmation), confirmation.php, id_f_title, (249, 44), (560, 85))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Button (Submit), index.php, id_submit_button, (118, 37), (1246, 494))">test(Button (Submit), index.php, id_submit_button, (118, 37), (1246, 494))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Label (email address), index.php, id_f_label_ea, (138, 24), (554, 233))">test(Label (email address), index.php, id_f_label_ea, (138, 24), (554, 233))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Confirmation Field (phone number), confirmation.php, id_phone_conf, (10, 42), (986, 266))">test(Confirmation Field (phone number), confirmation.php, id_phone_conf, (10, 42), (986, 266))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Image (facebook), index.php, id_img_facebook, (60, 60), (554, 478))">test(Image (facebook), index.php, id_img_facebook, (60, 60), (554, 478))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Confirmation Label (email address), confirmation.php, id_f_label_email_conf, (138, 24), (561, 234))">test(Confirmation Label (email address), confirmation.php, id_f_label_email_conf, (138, 24), (561, 234))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Label (state), index.php, id_f_label_s, (50, 24), (979, 313))">test(Label (state), index.php, id_f_label_s, (50, 24), (979, 313))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Checkbox (terms), index.php, id_checkbox, (26, 26), (554, 419))">test(Checkbox (terms), index.php, id_checkbox, (26, 26), (554, 419))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Confirmation Field (gender), confirmation.php, id_gender_conf, (10, 42), (561, 346))">test(Confirmation Field (gender), confirmation.php, id_gender_conf, (10, 42), (561, 346))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Confirmation Field (last name), confirmation.php, id_lname_conf, (10, 42), (986, 186))">test(Confirmation Field (last name), confirmation.php, id_lname_conf, (10, 42), (986, 186))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Label (I agree to the Terms), index.php, id_cb_label, (231, 30), (597, 414))">test(Label (I agree to the Terms), index.php, id_cb_label, (231, 30), (597, 414))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Label (phone number), index.php, id_f_label_pn, (143, 24), (979, 233))">test(Label (phone number), index.php, id_f_label_pn, (143, 24), (979, 233))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Image (weather icon), index.php, id_weather_icon, (50, 50), (1197, 99))">test(Image (weather icon), index.php, id_weather_icon, (50, 50), (1197, 99))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Field (phone number), index.php, id_phone, (386, 43), (979, 263))">test(Field (phone number), index.php, id_phone, (386, 43), (979, 263))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Confirmation Label (phone number), confirmation.php, id_f_label_phone_conf, (143, 24), (986, 234))">test(Confirmation Label (phone number), confirmation.php, id_f_label_phone_conf, (143, 24), (986, 234))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Radio Button (female), index.php, id_g_radio_02, (26, 26), (745, 354))">test(Radio Button (female), index.php, id_g_radio_02, (26, 26), (745, 354))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Confirmation Field (state), confirmation.php, id_state_conf, (10, 42), (986, 346))">test(Confirmation Field (state), confirmation.php, id_state_conf, (10, 42), (986, 346))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Confirmation Button (Back), confirmation.php, id_back_button, (120, 37), (986, 492))">test(Confirmation Button (Back), confirmation.php, id_back_button, (120, 37), (986, 492))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Confirmation Field (email address), confirmation.php, id_email_conf, (10, 42), (561, 266))">test(Confirmation Field (email address), confirmation.php, id_email_conf, (10, 42), (561, 266))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Drop-down List (state), index.php, id_state, (344, 44), (979, 343))">test(Drop-down List (state), index.php, id_state, (344, 44), (979, 343))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Confirmation Label (state), confirmation.php, id_f_label_state_conf, (50, 24), (986, 314))">test(Confirmation Label (state), confirmation.php, id_f_label_state_conf, (50, 24), (986, 314))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Confirmation Label (Terms?), confirmation.php, id_f_label_terms_conf, (70, 24), (561, 394))">test(Confirmation Label (Terms?), confirmation.php, id_f_label_terms_conf, (70, 24), (561, 394))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Confirmation Label (gender), confirmation.php, id_f_label_gender_conf, (71, 24), (561, 314))">test(Confirmation Label (gender), confirmation.php, id_f_label_gender_conf, (71, 24), (561, 314))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Confirmation Field (first name), confirmation.php, id_fname_conf, (10, 42), (561, 186))">test(Confirmation Field (first name), confirmation.php, id_fname_conf, (10, 42), (561, 186))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Label (radio female), index.php, id_r_label_f, (67, 22), (785, 355))">test(Label (radio female), index.php, id_r_label_f, (67, 22), (785, 355))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Dynamic text (copyright), index.php, copyright, (250, 24), (825, 551))">test(Dynamic text (copyright), index.php, copyright, (250, 24), (825, 551))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Confirmation Label (last name), confirmation.php, id_f_label_ln_conf, (103, 24), (986, 154))">test(Confirmation Label (last name), confirmation.php, id_f_label_ln_conf, (103, 24), (986, 154))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Image (twitter), index.php, id_img_twitter, (60, 60), (622, 478))">test(Image (twitter), index.php, id_img_twitter, (60, 60), (622, 478))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Page title (Sing Up), index.php, id_f_title, (151, 44), (554, 87))">test(Page title (Sing Up), index.php, id_f_title, (151, 44), (554, 87))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Image (flickr), index.php, id_img_flickr, (60, 60), (691, 478))">test(Image (flickr), index.php, id_img_flickr, (60, 60), (691, 478))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Button (Reset), index.php, id_reset_button, (104, 37), (991, 494))">test(Button (Reset), index.php, id_reset_button, (104, 37), (991, 494))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Confirmation Label (first name), confirmation.php, id_f_label_fn_conf, (104, 24), (561, 154))">test(Confirmation Label (first name), confirmation.php, id_f_label_fn_conf, (104, 24), (561, 154))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Dynamic text (today?s date), index.php, timestamp, (290, 24), (535, 551))">test(Dynamic text (today?s date), index.php, timestamp, (290, 24), (535, 551))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Label (first name), index.php, id_f_label_fn, (104, 24), (554, 153))">test(Label (first name), index.php, id_f_label_fn, (104, 24), (554, 153))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Dynamic text (temperature), index.php, id_temperature, (70, 42), (1258, 103))">test(Dynamic text (temperature), index.php, id_temperature, (70, 42), (1258, 103))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(Image (youtube), index.php, id_img_youtube, (60, 60), (760, 478))">test(Image (youtube), index.php, id_img_youtube, (60, 60), (760, 478))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-core.AppTestTest" title="core.AppTestTest" hash-for-method="test(text (current location), index.php, id_current_location, (178, 24), (1150, 71))">test(text (current location), index.php, id_current_location, (178, 24), (1150, 71))</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-core.AppTestTest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-core.AppTestTest" class="panel core.AppTestTest">
+          <div class="suite-core.AppTestTest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">core.AppTestTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Dynamic text (os &amp; browser), index.php, os_browser, (310, 24),  (1075, 551))">
+                  </a> <!-- test(Dynamic text (os & browser), index.php, os_browser, (310, 24),  (1075, 551)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Dynamic text (os & browser), index.php, os_browser, (310, 24),  (1075, 551))</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: &quot; (1075, 551)&quot;
+     but: was &quot;(1075, 551)&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.AppTestTest.test(AppTestTest.java:69)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Field (first name), index.php, id_fname, (386, 43),  (554, 183))">
+                  </a> <!-- test(Field (first name), index.php, id_fname, (386, 43),  (554, 183)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Field (first name), index.php, id_fname, (386, 43),  (554, 183))</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: &quot; (554, 183)&quot;
+     but: was &quot;(554, 183)&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.AppTestTest.test(AppTestTest.java:69)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Field (email address), index.php, id_email, (386, 43),  (554, 263))">
+                  </a> <!-- test(Field (email address), index.php, id_email, (386, 43),  (554, 263)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Field (email address), index.php, id_email, (386, 43),  (554, 263))</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: &quot; (554, 263)&quot;
+     but: was &quot;(554, 263)&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.AppTestTest.test(AppTestTest.java:69)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Dynamic text (quote), index.php, id_quotes, (1901, 20),  (9, 49))">
+                  </a> <!-- test(Dynamic text (quote), index.php, id_quotes, (1901, 20),  (9, 49)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Dynamic text (quote), index.php, id_quotes, (1901, 20),  (9, 49))</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: &quot; (9, 49)&quot;
+     but: was &quot;(9, 49)&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.AppTestTest.test(AppTestTest.java:69)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Label (last name), index.php, id_f_label_ln, (103, 24),  (979, 153))">
+                  </a> <!-- test(Label (last name), index.php, id_f_label_ln, (103, 24),  (979, 153)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Label (last name), index.php, id_f_label_ln, (103, 24),  (979, 153))</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: &quot; (979, 153)&quot;
+     but: was &quot;(979, 153)&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.AppTestTest.test(AppTestTest.java:69)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Label (radio male), index.php, id_r_label_m, (44, 22),  (606, 355))">
+                  </a> <!-- test(Label (radio male), index.php, id_r_label_m, (44, 22),  (606, 355)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Label (radio male), index.php, id_r_label_m, (44, 22),  (606, 355))</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: &quot; (606, 355)&quot;
+     but: was &quot;(606, 355)&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.AppTestTest.test(AppTestTest.java:69)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Radio Button (male), index.php, id_g_radio_01, (26, 26),  (566, 354))">
+                  </a> <!-- test(Radio Button (male), index.php, id_g_radio_01, (26, 26),  (566, 354)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Radio Button (male), index.php, id_g_radio_01, (26, 26),  (566, 354))</span>
+                  <div class="stack-trace">java.lang.AssertionError: 
+Expected: &quot; (566, 354)&quot;
+     but: was &quot;(566, 354)&quot;
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:8)
+	at core.AppTestTest.test(AppTestTest.java:69)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-core.AppTestTest-class-failed -->
+          <div class="suite-core.AppTestTest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">core.AppTestTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Confirmation Field (terms), confirmation.php, id_terms_conf, (10, 42), (561, 426))">
+                  </a> <!-- test(Confirmation Field (terms), confirmation.php, id_terms_conf, (10, 42), (561, 426)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Confirmation Field (terms), confirmation.php, id_terms_conf, (10, 42), (561, 426))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Field (last name), index.php, id_lname, (386, 43), (979, 183))">
+                  </a> <!-- test(Field (last name), index.php, id_lname, (386, 43), (979, 183)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Field (last name), index.php, id_lname, (386, 43), (979, 183))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Page title (Confirmation), confirmation.php, id_f_title, (249, 44), (560, 85))">
+                  </a> <!-- test(Page title (Confirmation), confirmation.php, id_f_title, (249, 44), (560, 85)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Page title (Confirmation), confirmation.php, id_f_title, (249, 44), (560, 85))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Button (Submit), index.php, id_submit_button, (118, 37), (1246, 494))">
+                  </a> <!-- test(Button (Submit), index.php, id_submit_button, (118, 37), (1246, 494)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Button (Submit), index.php, id_submit_button, (118, 37), (1246, 494))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Label (email address), index.php, id_f_label_ea, (138, 24), (554, 233))">
+                  </a> <!-- test(Label (email address), index.php, id_f_label_ea, (138, 24), (554, 233)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Label (email address), index.php, id_f_label_ea, (138, 24), (554, 233))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Confirmation Field (phone number), confirmation.php, id_phone_conf, (10, 42), (986, 266))">
+                  </a> <!-- test(Confirmation Field (phone number), confirmation.php, id_phone_conf, (10, 42), (986, 266)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Confirmation Field (phone number), confirmation.php, id_phone_conf, (10, 42), (986, 266))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Image (facebook), index.php, id_img_facebook, (60, 60), (554, 478))">
+                  </a> <!-- test(Image (facebook), index.php, id_img_facebook, (60, 60), (554, 478)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Image (facebook), index.php, id_img_facebook, (60, 60), (554, 478))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Confirmation Label (email address), confirmation.php, id_f_label_email_conf, (138, 24), (561, 234))">
+                  </a> <!-- test(Confirmation Label (email address), confirmation.php, id_f_label_email_conf, (138, 24), (561, 234)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Confirmation Label (email address), confirmation.php, id_f_label_email_conf, (138, 24), (561, 234))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Label (state), index.php, id_f_label_s, (50, 24), (979, 313))">
+                  </a> <!-- test(Label (state), index.php, id_f_label_s, (50, 24), (979, 313)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Label (state), index.php, id_f_label_s, (50, 24), (979, 313))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Checkbox (terms), index.php, id_checkbox, (26, 26), (554, 419))">
+                  </a> <!-- test(Checkbox (terms), index.php, id_checkbox, (26, 26), (554, 419)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Checkbox (terms), index.php, id_checkbox, (26, 26), (554, 419))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Confirmation Field (gender), confirmation.php, id_gender_conf, (10, 42), (561, 346))">
+                  </a> <!-- test(Confirmation Field (gender), confirmation.php, id_gender_conf, (10, 42), (561, 346)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Confirmation Field (gender), confirmation.php, id_gender_conf, (10, 42), (561, 346))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Confirmation Field (last name), confirmation.php, id_lname_conf, (10, 42), (986, 186))">
+                  </a> <!-- test(Confirmation Field (last name), confirmation.php, id_lname_conf, (10, 42), (986, 186)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Confirmation Field (last name), confirmation.php, id_lname_conf, (10, 42), (986, 186))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Label (I agree to the Terms), index.php, id_cb_label, (231, 30), (597, 414))">
+                  </a> <!-- test(Label (I agree to the Terms), index.php, id_cb_label, (231, 30), (597, 414)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Label (I agree to the Terms), index.php, id_cb_label, (231, 30), (597, 414))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Label (phone number), index.php, id_f_label_pn, (143, 24), (979, 233))">
+                  </a> <!-- test(Label (phone number), index.php, id_f_label_pn, (143, 24), (979, 233)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Label (phone number), index.php, id_f_label_pn, (143, 24), (979, 233))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Image (weather icon), index.php, id_weather_icon, (50, 50), (1197, 99))">
+                  </a> <!-- test(Image (weather icon), index.php, id_weather_icon, (50, 50), (1197, 99)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Image (weather icon), index.php, id_weather_icon, (50, 50), (1197, 99))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Field (phone number), index.php, id_phone, (386, 43), (979, 263))">
+                  </a> <!-- test(Field (phone number), index.php, id_phone, (386, 43), (979, 263)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Field (phone number), index.php, id_phone, (386, 43), (979, 263))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Confirmation Label (phone number), confirmation.php, id_f_label_phone_conf, (143, 24), (986, 234))">
+                  </a> <!-- test(Confirmation Label (phone number), confirmation.php, id_f_label_phone_conf, (143, 24), (986, 234)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Confirmation Label (phone number), confirmation.php, id_f_label_phone_conf, (143, 24), (986, 234))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Radio Button (female), index.php, id_g_radio_02, (26, 26), (745, 354))">
+                  </a> <!-- test(Radio Button (female), index.php, id_g_radio_02, (26, 26), (745, 354)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Radio Button (female), index.php, id_g_radio_02, (26, 26), (745, 354))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Confirmation Field (state), confirmation.php, id_state_conf, (10, 42), (986, 346))">
+                  </a> <!-- test(Confirmation Field (state), confirmation.php, id_state_conf, (10, 42), (986, 346)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Confirmation Field (state), confirmation.php, id_state_conf, (10, 42), (986, 346))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Confirmation Button (Back), confirmation.php, id_back_button, (120, 37), (986, 492))">
+                  </a> <!-- test(Confirmation Button (Back), confirmation.php, id_back_button, (120, 37), (986, 492)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Confirmation Button (Back), confirmation.php, id_back_button, (120, 37), (986, 492))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Confirmation Field (email address), confirmation.php, id_email_conf, (10, 42), (561, 266))">
+                  </a> <!-- test(Confirmation Field (email address), confirmation.php, id_email_conf, (10, 42), (561, 266)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Confirmation Field (email address), confirmation.php, id_email_conf, (10, 42), (561, 266))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Drop-down List (state), index.php, id_state, (344, 44), (979, 343))">
+                  </a> <!-- test(Drop-down List (state), index.php, id_state, (344, 44), (979, 343)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Drop-down List (state), index.php, id_state, (344, 44), (979, 343))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Confirmation Label (state), confirmation.php, id_f_label_state_conf, (50, 24), (986, 314))">
+                  </a> <!-- test(Confirmation Label (state), confirmation.php, id_f_label_state_conf, (50, 24), (986, 314)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Confirmation Label (state), confirmation.php, id_f_label_state_conf, (50, 24), (986, 314))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Confirmation Label (Terms?), confirmation.php, id_f_label_terms_conf, (70, 24), (561, 394))">
+                  </a> <!-- test(Confirmation Label (Terms?), confirmation.php, id_f_label_terms_conf, (70, 24), (561, 394)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Confirmation Label (Terms?), confirmation.php, id_f_label_terms_conf, (70, 24), (561, 394))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Confirmation Label (gender), confirmation.php, id_f_label_gender_conf, (71, 24), (561, 314))">
+                  </a> <!-- test(Confirmation Label (gender), confirmation.php, id_f_label_gender_conf, (71, 24), (561, 314)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Confirmation Label (gender), confirmation.php, id_f_label_gender_conf, (71, 24), (561, 314))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Confirmation Field (first name), confirmation.php, id_fname_conf, (10, 42), (561, 186))">
+                  </a> <!-- test(Confirmation Field (first name), confirmation.php, id_fname_conf, (10, 42), (561, 186)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Confirmation Field (first name), confirmation.php, id_fname_conf, (10, 42), (561, 186))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Label (radio female), index.php, id_r_label_f, (67, 22), (785, 355))">
+                  </a> <!-- test(Label (radio female), index.php, id_r_label_f, (67, 22), (785, 355)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Label (radio female), index.php, id_r_label_f, (67, 22), (785, 355))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Dynamic text (copyright), index.php, copyright, (250, 24), (825, 551))">
+                  </a> <!-- test(Dynamic text (copyright), index.php, copyright, (250, 24), (825, 551)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Dynamic text (copyright), index.php, copyright, (250, 24), (825, 551))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Confirmation Label (last name), confirmation.php, id_f_label_ln_conf, (103, 24), (986, 154))">
+                  </a> <!-- test(Confirmation Label (last name), confirmation.php, id_f_label_ln_conf, (103, 24), (986, 154)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Confirmation Label (last name), confirmation.php, id_f_label_ln_conf, (103, 24), (986, 154))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Image (twitter), index.php, id_img_twitter, (60, 60), (622, 478))">
+                  </a> <!-- test(Image (twitter), index.php, id_img_twitter, (60, 60), (622, 478)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Image (twitter), index.php, id_img_twitter, (60, 60), (622, 478))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Page title (Sing Up), index.php, id_f_title, (151, 44), (554, 87))">
+                  </a> <!-- test(Page title (Sing Up), index.php, id_f_title, (151, 44), (554, 87)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Page title (Sing Up), index.php, id_f_title, (151, 44), (554, 87))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Image (flickr), index.php, id_img_flickr, (60, 60), (691, 478))">
+                  </a> <!-- test(Image (flickr), index.php, id_img_flickr, (60, 60), (691, 478)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Image (flickr), index.php, id_img_flickr, (60, 60), (691, 478))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Button (Reset), index.php, id_reset_button, (104, 37), (991, 494))">
+                  </a> <!-- test(Button (Reset), index.php, id_reset_button, (104, 37), (991, 494)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Button (Reset), index.php, id_reset_button, (104, 37), (991, 494))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Confirmation Label (first name), confirmation.php, id_f_label_fn_conf, (104, 24), (561, 154))">
+                  </a> <!-- test(Confirmation Label (first name), confirmation.php, id_f_label_fn_conf, (104, 24), (561, 154)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Confirmation Label (first name), confirmation.php, id_f_label_fn_conf, (104, 24), (561, 154))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Dynamic text (today?s date), index.php, timestamp, (290, 24), (535, 551))">
+                  </a> <!-- test(Dynamic text (today?s date), index.php, timestamp, (290, 24), (535, 551)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Dynamic text (today?s date), index.php, timestamp, (290, 24), (535, 551))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Label (first name), index.php, id_f_label_fn, (104, 24), (554, 153))">
+                  </a> <!-- test(Label (first name), index.php, id_f_label_fn, (104, 24), (554, 153)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Label (first name), index.php, id_f_label_fn, (104, 24), (554, 153))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Dynamic text (temperature), index.php, id_temperature, (70, 42), (1258, 103))">
+                  </a> <!-- test(Dynamic text (temperature), index.php, id_temperature, (70, 42), (1258, 103)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Dynamic text (temperature), index.php, id_temperature, (70, 42), (1258, 103))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Image (youtube), index.php, id_img_youtube, (60, 60), (760, 478))">
+                  </a> <!-- test(Image (youtube), index.php, id_img_youtube, (60, 60), (760, 478)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Image (youtube), index.php, id_img_youtube, (60, 60), (760, 478))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(text (current location), index.php, id_current_location, (178, 24), (1150, 71))">
+                  </a> <!-- test(text (current location), index.php, id_current_location, (178, 24), (1150, 71)) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(text (current location), index.php, id_current_location, (178, 24), (1150, 71))</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-core.AppTestTest-class-passed -->
+        </div> <!-- panel core.AppTestTest -->
+        <div panel-name="test-xml-core.AppTestTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;core.AppTestTest&quot;&gt;
+  &lt;test name=&quot;Command line test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;core.AppTestTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Command line test --&gt;
+&lt;/suite&gt; &lt;!-- core.AppTestTest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-core.AppTestTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for core.AppTestTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Command line test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-core.AppTestTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for core.AppTestTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-core.AppTestTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for core.AppTestTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_core.AppTestTest');
+function tableData_core.AppTestTest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(46);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'test')
+data.setCell(0, 2, 'core.AppTestTest')
+data.setCell(0, 3, 5421);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'test')
+data.setCell(1, 2, 'core.AppTestTest')
+data.setCell(1, 3, 5330);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test')
+data.setCell(2, 2, 'core.AppTestTest')
+data.setCell(2, 3, 5298);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'test')
+data.setCell(3, 2, 'core.AppTestTest')
+data.setCell(3, 3, 5213);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test')
+data.setCell(4, 2, 'core.AppTestTest')
+data.setCell(4, 3, 5094);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test')
+data.setCell(5, 2, 'core.AppTestTest')
+data.setCell(5, 3, 5076);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test')
+data.setCell(6, 2, 'core.AppTestTest')
+data.setCell(6, 3, 5056);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'test')
+data.setCell(7, 2, 'core.AppTestTest')
+data.setCell(7, 3, 5024);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'test')
+data.setCell(8, 2, 'core.AppTestTest')
+data.setCell(8, 3, 4953);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'test')
+data.setCell(9, 2, 'core.AppTestTest')
+data.setCell(9, 3, 4926);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'test')
+data.setCell(10, 2, 'core.AppTestTest')
+data.setCell(10, 3, 4818);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'test')
+data.setCell(11, 2, 'core.AppTestTest')
+data.setCell(11, 3, 4804);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'test')
+data.setCell(12, 2, 'core.AppTestTest')
+data.setCell(12, 3, 4788);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'test')
+data.setCell(13, 2, 'core.AppTestTest')
+data.setCell(13, 3, 4783);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'test')
+data.setCell(14, 2, 'core.AppTestTest')
+data.setCell(14, 3, 4781);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'test')
+data.setCell(15, 2, 'core.AppTestTest')
+data.setCell(15, 3, 4681);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'test')
+data.setCell(16, 2, 'core.AppTestTest')
+data.setCell(16, 3, 4667);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'test')
+data.setCell(17, 2, 'core.AppTestTest')
+data.setCell(17, 3, 4642);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'test')
+data.setCell(18, 2, 'core.AppTestTest')
+data.setCell(18, 3, 4636);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'test')
+data.setCell(19, 2, 'core.AppTestTest')
+data.setCell(19, 3, 4626);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'test')
+data.setCell(20, 2, 'core.AppTestTest')
+data.setCell(20, 3, 4582);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'test')
+data.setCell(21, 2, 'core.AppTestTest')
+data.setCell(21, 3, 4579);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'test')
+data.setCell(22, 2, 'core.AppTestTest')
+data.setCell(22, 3, 4571);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'test')
+data.setCell(23, 2, 'core.AppTestTest')
+data.setCell(23, 3, 4555);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'test')
+data.setCell(24, 2, 'core.AppTestTest')
+data.setCell(24, 3, 4538);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'test')
+data.setCell(25, 2, 'core.AppTestTest')
+data.setCell(25, 3, 4533);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'test')
+data.setCell(26, 2, 'core.AppTestTest')
+data.setCell(26, 3, 4530);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'test')
+data.setCell(27, 2, 'core.AppTestTest')
+data.setCell(27, 3, 4522);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'test')
+data.setCell(28, 2, 'core.AppTestTest')
+data.setCell(28, 3, 4491);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'test')
+data.setCell(29, 2, 'core.AppTestTest')
+data.setCell(29, 3, 4446);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'test')
+data.setCell(30, 2, 'core.AppTestTest')
+data.setCell(30, 3, 4428);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'test')
+data.setCell(31, 2, 'core.AppTestTest')
+data.setCell(31, 3, 4373);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'test')
+data.setCell(32, 2, 'core.AppTestTest')
+data.setCell(32, 3, 4352);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'test')
+data.setCell(33, 2, 'core.AppTestTest')
+data.setCell(33, 3, 4318);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'test')
+data.setCell(34, 2, 'core.AppTestTest')
+data.setCell(34, 3, 4315);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'test')
+data.setCell(35, 2, 'core.AppTestTest')
+data.setCell(35, 3, 4242);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'test')
+data.setCell(36, 2, 'core.AppTestTest')
+data.setCell(36, 3, 4237);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'test')
+data.setCell(37, 2, 'core.AppTestTest')
+data.setCell(37, 3, 4236);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'test')
+data.setCell(38, 2, 'core.AppTestTest')
+data.setCell(38, 3, 4158);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'test')
+data.setCell(39, 2, 'core.AppTestTest')
+data.setCell(39, 3, 4117);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'test')
+data.setCell(40, 2, 'core.AppTestTest')
+data.setCell(40, 3, 4106);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'test')
+data.setCell(41, 2, 'core.AppTestTest')
+data.setCell(41, 3, 4058);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'test')
+data.setCell(42, 2, 'core.AppTestTest')
+data.setCell(42, 3, 4022);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'test')
+data.setCell(43, 2, 'core.AppTestTest')
+data.setCell(43, 3, 3938);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'test')
+data.setCell(44, 2, 'core.AppTestTest')
+data.setCell(44, 3, 3891);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'test')
+data.setCell(45, 2, 'core.AppTestTest')
+data.setCell(45, 3, 3857);
+window.suiteTableData['core.AppTestTest']= { tableData: data, tableDiv: 'times-div-core.AppTestTest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-core.AppTestTest">
+              </div> <!-- times-div-core.AppTestTest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-core.AppTestTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for core.AppTestTest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-core.AppTestTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-core.AppTestTest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">core.AppTestTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(Dynamic text (quote), index.php, id_quotes, (1901, 20),  (9, 49))</span>
+                <span class="method-start">4 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">5082 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">5144 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Page title (Sing Up), index.php, id_f_title, (151, 44), (554, 87))</span>
+                <span class="method-start">5144 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">9251 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">9341 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(text (current location), index.php, id_current_location, (178, 24), (1150, 71))</span>
+                <span class="method-start">9341 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">13874 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">13929 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Image (weather icon), index.php, id_weather_icon, (50, 50), (1197, 99))</span>
+                <span class="method-start">13929 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">18717 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">18782 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Dynamic text (temperature), index.php, id_temperature, (70, 42), (1258, 103))</span>
+                <span class="method-start">18783 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">23021 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">23077 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Label (first name), index.php, id_f_label_fn, (104, 24), (554, 153))</span>
+                <span class="method-start">23077 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">28030 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">28086 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(Field (first name), index.php, id_fname, (386, 43),  (554, 183))</span>
+                <span class="method-start">28086 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">32891 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">32977 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(Label (last name), index.php, id_f_label_ln, (103, 24),  (979, 153))</span>
+                <span class="method-start">32977 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">37500 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">37594 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Field (last name), index.php, id_lname, (386, 43), (979, 183))</span>
+                <span class="method-start">37594 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">42520 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">42579 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Label (email address), index.php, id_f_label_ea, (138, 24), (554, 233))</span>
+                <span class="method-start">42579 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">47603 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">47693 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(Field (email address), index.php, id_email, (386, 43),  (554, 263))</span>
+                <span class="method-start">47693 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">52276 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">52356 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Label (phone number), index.php, id_f_label_pn, (143, 24), (979, 233))</span>
+                <span class="method-start">52356 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">56294 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">56397 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Field (phone number), index.php, id_phone, (386, 43), (979, 263))</span>
+                <span class="method-start">56397 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">61180 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">61242 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(Label (radio male), index.php, id_r_label_m, (44, 22),  (606, 355))</span>
+                <span class="method-start">61242 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">65909 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">65990 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(Radio Button (male), index.php, id_g_radio_01, (26, 26),  (566, 354))</span>
+                <span class="method-start">65990 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">70562 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">70644 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Label (radio female), index.php, id_r_label_f, (67, 22), (785, 355))</span>
+                <span class="method-start">70644 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">75325 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">75495 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Radio Button (female), index.php, id_g_radio_02, (26, 26), (745, 354))</span>
+                <span class="method-start">75495 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">79653 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">79752 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Label (state), index.php, id_f_label_s, (50, 24), (979, 313))</span>
+                <span class="method-start">79752 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">84378 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">84463 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Drop-down List (state), index.php, id_state, (344, 44), (979, 343))</span>
+                <span class="method-start">84463 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">89884 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">89942 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Label (I agree to the Terms), index.php, id_cb_label, (231, 30), (597, 414))</span>
+                <span class="method-start">89942 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">95240 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">95330 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Checkbox (terms), index.php, id_checkbox, (26, 26), (554, 419))</span>
+                <span class="method-start">95330 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">99861 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">99918 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Image (facebook), index.php, id_img_facebook, (60, 60), (554, 478))</span>
+                <span class="method-start">99918 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">104560 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">104614 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Image (twitter), index.php, id_img_twitter, (60, 60), (622, 478))</span>
+                <span class="method-start">104614 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">108731 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">108789 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Image (flickr), index.php, id_img_flickr, (60, 60), (691, 478))</span>
+                <span class="method-start">108789 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">113425 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">113480 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Image (youtube), index.php, id_img_youtube, (60, 60), (760, 478))</span>
+                <span class="method-start">113481 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">118019 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">118081 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Button (Reset), index.php, id_reset_button, (104, 37), (991, 494))</span>
+                <span class="method-start">118081 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">122103 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">122189 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Button (Submit), index.php, id_submit_button, (118, 37), (1246, 494))</span>
+                <span class="method-start">122189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">126744 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">126846 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Dynamic text (today?s date), index.php, timestamp, (290, 24), (535, 551))</span>
+                <span class="method-start">126846 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">132059 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">132123 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Dynamic text (copyright), index.php, copyright, (250, 24), (825, 551))</span>
+                <span class="method-start">132123 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">137453 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">137540 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test(Dynamic text (os & browser), index.php, os_browser, (310, 24),  (1075, 551))</span>
+                <span class="method-start">137540 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">142322 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">142376 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Page title (Confirmation), confirmation.php, id_f_title, (249, 44), (560, 85))</span>
+                <span class="method-start">142376 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">147194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">147274 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Confirmation Label (first name), confirmation.php, id_f_label_fn_conf, (104, 24), (561, 154))</span>
+                <span class="method-start">147274 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">151702 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">151830 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Confirmation Field (first name), confirmation.php, id_fname_conf, (10, 42), (561, 186))</span>
+                <span class="method-start">151830 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">156924 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">156982 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Confirmation Label (last name), confirmation.php, id_f_label_ln_conf, (103, 24), (986, 154))</span>
+                <span class="method-start">156982 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">162038 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">162099 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Confirmation Field (last name), confirmation.php, id_lname_conf, (10, 42), (986, 186))</span>
+                <span class="method-start">162099 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">166335 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">166393 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Confirmation Label (email address), confirmation.php, id_f_label_email_conf, (138, 24), (561, 234))</span>
+                <span class="method-start">166393 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">170767 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">170852 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Confirmation Field (email address), confirmation.php, id_email_conf, (10, 42), (561, 266))</span>
+                <span class="method-start">170852 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">175298 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">175372 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Confirmation Label (phone number), confirmation.php, id_f_label_phone_conf, (143, 24), (986, 234))</span>
+                <span class="method-start">175372 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">179863 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">179935 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Confirmation Field (phone number), confirmation.php, id_phone_conf, (10, 42), (986, 266))</span>
+                <span class="method-start">179935 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">184253 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">184311 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Confirmation Label (gender), confirmation.php, id_f_label_gender_conf, (71, 24), (561, 314))</span>
+                <span class="method-start">184311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">188553 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">188733 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Confirmation Field (gender), confirmation.php, id_gender_conf, (10, 42), (561, 346))</span>
+                <span class="method-start">188733 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">192624 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">192680 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Confirmation Label (state), confirmation.php, id_f_label_state_conf, (50, 24), (986, 314))</span>
+                <span class="method-start">192680 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">196537 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">196599 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Confirmation Field (state), confirmation.php, id_state_conf, (10, 42), (986, 346))</span>
+                <span class="method-start">196599 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">200951 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">201137 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Confirmation Label (Terms?), confirmation.php, id_f_label_terms_conf, (70, 24), (561, 394))</span>
+                <span class="method-start">201137 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">205716 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">205806 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Confirmation Field (terms), confirmation.php, id_terms_conf, (10, 42), (561, 426))</span>
+                <span class="method-start">205806 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">209864 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">bm(public void core.AppTestTest.test(java.lang.String,java.lang.String,java.lang.String,java.lang.Strin...)</span>
+                <span class="method-start">209918 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Confirmation Button (Back), confirmation.php, id_back_button, (120, 37), (986, 492))</span>
+                <span class="method-start">209918 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">am</span>
+                <span class="method-start">214234 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
